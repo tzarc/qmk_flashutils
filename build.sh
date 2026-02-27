@@ -12,6 +12,7 @@ cd "$script_dir"
 ./build-libusb.sh
 ./build-libusb-compat.sh
 ./build-hidapi.sh
+./build-hidapi-shared.sh
 ./build-libftdi.sh
 ./build-libserialport.sh
 ./build-dfu-programmer.sh
@@ -24,5 +25,7 @@ cd "$script_dir"
 ./build-wb32-dfu-updater_cli.sh
 
 ls -1alR "$script_dir/.xroot"
+ls -1alR "$script_dir/.xroot-shared"
 
 ./repack.sh
+./repack-hidapi-shared.sh
