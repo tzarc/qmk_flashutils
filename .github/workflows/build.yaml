@@ -1,4 +1,3 @@
----
 name: 1. (tzarc) Build flashing utils
 
 on:
@@ -57,4 +56,3 @@ jobs:
           name: build.logs
           path: |
             build_logs.tar.zst
-

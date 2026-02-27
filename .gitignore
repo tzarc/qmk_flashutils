@@ -1,3 +1,5 @@
+.direnv
+
 .build
 .xroot
 .xroot-shared
